@@ -1,5 +1,5 @@
 body {
-	background-image:url("../images/wimbledon_court.jpg");
+	background-image:url("../images/wimbledon_court.jpg" alt="Centre Court photo" title="Centre Court");
 	font-family: Georgia;
 	font-size: 20px;
 	color: #0A251A;
@@ -28,7 +28,7 @@ section {
 	background-color: #0A251A;
 }
 
-h3 {
+h3, a {
 	text-align: center;
 	color: #0A251A;
 }
