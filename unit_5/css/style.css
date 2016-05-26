@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa);
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image:url("../images/wimbledon_court.jpg");
+	font-family: Comfortaa, sans-serif;
+	font-size: 20px;
+	color: #0A251A;
+	margin-top: 3.5em;
+	text-align: center;
+}
+
+p {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+h1 {
+	font-size: 4em;
+	font-family: Oleo Script, serif;
+}
+
+header {
+	color: white;
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+main {
+	font-size: 1.2em;
+	font-weight: bold;
+	width: 30em;
+	padding: .5em 0 1em;
+	margin: auto;
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	/*background-color: rgba(173, 206, 140, .25);*/
+}
+
+aside {
+	font-size: 1.2em;
+	padding: 1em;
+	border: 1px black solid;
+	background-color: #FFC675;
+}
+
+li{
+	list-style-type: none;	
+}
+
+span{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#slogan {
+	font-size: 2em;
+	font-style: italic;
+	font-family: Comfortaa, serif;
+	background-color: #0A251A;
+}
+
+nav {
+	color: #0A251A;
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 1em;
+	font-size: 1.2em;
+}
