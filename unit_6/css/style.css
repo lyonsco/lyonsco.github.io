@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Oleo+Script);
-@import url(https://fonts.googleapis.com/css?family=Poiret+One);
 @import url(https://fonts.googleapis.com/css?family=Comfortaa);
 
 * {
@@ -30,27 +29,22 @@ h1 {
 
 header {
 	color: white;
-	background-color: #FFED74;
-	border: 1px black solid;
 	padding: 20px;
 }
 
 main {
 	font-size: 1.2em;
 	font-weight: bold;
-	width: 30em;
-	padding: .5em 0 1em;
-	margin: auto;
-	background-color: #FFE2B8;
-	border: 1px black solid;
+	width: 25em;
+	margin-left: 1em;
 	/*background-color: rgba(173, 206, 140, .25);*/
 }
 
 aside {
 	font-size: 1.2em;
-	padding: 1em;
-	border: 1px black solid;
-	background-color: #FFC675;
+	padding: 2em;
+	margin-right: 2em;
+	background-color: rgb(255, 255, 102);
 }
 
 li{
@@ -70,27 +64,43 @@ span{
 }
 
 #two_column {
-	background-color: #FFB7CF;
-	border: 1px black solid;
 	padding: 20px;
 }
 
 #left {
-	background-color: #E582A2;
-	border: 1px black solid;
-	padding: 20px;
+	float: left;
+	width: 60%;
 }
 
 #right {
-	background-color: #E55B88;
-	border: 1px black solid;
-	padding: 20px;
+	margin-top: 2em;
+	float: right;
+	width: 30%;
+}
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
 
 nav {
 	color: #0A251A;
-	background-color: #E8C66A;
-	border: 1px black solid;
 	padding: 1em;
 	font-size: 1.2em;
+	clear: both;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
 }
