@@ -12,9 +12,11 @@ body {
 	background-image:url("../images/wimbledon_court.jpg");
 	font-family: Comfortaa, sans-serif;
 	font-size: 20px;
-	color: #0A251A;
+	color: #fff;
 	margin-top: 3.5em;
 	text-align: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 p {
@@ -69,13 +71,15 @@ span{
 
 #left {
 	float: left;
-	width: 60%;
+	width: 64.66%;
+	margin: 1%;
 }
 
 #right {
 	margin-top: 2em;
 	float: right;
-	width: 30%;
+	width: 31.33%;
+	margin: 1%;
 }
 
 
