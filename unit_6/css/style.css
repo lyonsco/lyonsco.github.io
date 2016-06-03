@@ -9,11 +9,10 @@
 }
 
 body {
-	background-image:url("../images/wimbledon_court.jpg");
 	font-family: Comfortaa, sans-serif;
 	font-size: 20px;
 	color: #fff;
-	margin-top: 3.5em;
+	/* margin-top: 3.5em; */
 	text-align: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -32,6 +31,10 @@ h1 {
 header {
 	color: white;
 	padding: 20px;
+	background: url("../images/wimbledon_court.jpg");
+	background-size: cover;
+	padding: 10em 0;
+	background-repeat: no-repeat;
 }
 
 main {
