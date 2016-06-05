@@ -99,6 +99,10 @@ a:visited {
 	color: #DBFB00;
 }
 
+#contact a:hover {
+	color: #DBFB00;
+}
+
 span a:hover {
 	color: #DBFB00;
 }
