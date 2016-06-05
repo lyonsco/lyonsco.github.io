@@ -33,32 +33,78 @@ header {
 	padding: 20px;
 	background: url("../images/wimbledon_court.jpg");
 	background-size: cover;
-	padding: 10em 0;
+	padding: 5em 0;
 	background-repeat: no-repeat;
+	clear: both;
 }
 
-main {
-	font-size: 1.2em;
-	font-weight: bold;
-	width: 25em;
-	margin-left: 1em;
-	/*background-color: rgba(173, 206, 140, .25);*/
+#nav {
+	background-color: #0A251A;
 }
 
-aside {
-	font-size: 1.2em;
-	padding: 2em;
-	margin-right: 2em;
-	background-color: rgb(255, 255, 102);
+.table {
+	display: table;
+	margin: 0 auto;
+	background-color: #0A251A;
 }
 
-li{
-	list-style-type: none;	
+ul#horizontal-list {
+	list-style: none;
+	background-color: #0A251A;
 }
 
-span{
-	text-transform: uppercase;
-	font-weight: bold;
+ul#horizontal-list li{
+	display: inline;
+	color: white;
+	background-color: #0A251A;
+	padding-right: 1.5em;
+	padding-left: 1.5em;
+}
+
+nav ul{
+	text-align: center;
+}
+nav li {
+	list-style-type: none;
+	float: left;
+	display: inline;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #0A251A;
+}
+
+nav {
+	background-color: #0A251A;
+}
+
+#right li {
+	list-style-type: none;
+	background-color: rgba(10, 37, 26, .25)
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+/*a:link {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}*/
+
+.table a:hover {
+	color: #DBFB00;
+}
+
+span a:hover {
+	color: #DBFB00;
+}
+
+div {
+	background-color: #54008B;
 }
 
 #slogan {
@@ -68,21 +114,37 @@ span{
 	background-color: #0A251A;
 }
 
-#two_column {
-	padding: 20px;
+hr {
+	color: white;
+	width: 100%;
+	border: 0;
+	height: 1px;
 }
 
 #left {
 	float: left;
-	width: 64.66%;
-	margin: 1%;
+	width: 60%;
+	margin: 2%;
+	padding: 1em;
+	border-radius: 1em;
+	background-color: #0A251A;
 }
 
 #right {
 	margin-top: 2em;
+	margin-right: 1%;
+	padding: 2em;
+	border-radius: 1em;
 	float: right;
 	width: 31.33%;
-	margin: 1%;
+	background-color: #0A251A;
+}
+
+#contact {
+	padding: .25em;
+	font-size: 1.2em;
+	color: white;
+	background-color: #54008B;
 }
 
 
@@ -93,21 +155,4 @@ span{
 	content: " ";
 	clear: both;
 	height: 0;
-}
-
-nav {
-	color: #0A251A;
-	padding: 1em;
-	font-size: 1.2em;
-	clear: both;
-}
-
-hr { 
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
 }
