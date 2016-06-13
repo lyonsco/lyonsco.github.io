@@ -37,7 +37,7 @@ header {
 	clear: both;
 }
 
-#nav {
+/*#nav {
 	background-color: #0A251A;
 }
 
@@ -58,18 +58,16 @@ ul#horizontal-list li{
 	background-color: #0A251A;
 	padding-right: 1.5em;
 	padding-left: 1.5em;
-}
+}*/
 
-nav ul{
-	text-align: center;
-}
-nav li {
+nav a {
 	list-style-type: none;
 	float: left;
 	display: inline;
     padding-left: 1em;
     padding-right: 1em;
     background-color: #0A251A;
+    text-align: center;
 }
 
 nav {
@@ -94,7 +92,11 @@ a:visited {
 	color: white;
 }*/
 
-.table a:hover {
+/*.table a:hover {
+	color: #DBFB00;
+}*/
+
+nav a:hover {
 	color: #DBFB00;
 }
 
@@ -172,10 +174,8 @@ hr {
 	width: auto;
 }
 
-nav li {
-	float: none;
+nav a:link {
 	display: block;
-	text-align: center;
 }
 
 header {
