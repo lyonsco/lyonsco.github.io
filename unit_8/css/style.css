@@ -157,8 +157,7 @@ body {
 }
 
 hr {
-	height: .02px;
-	border: 0;
+	display: none;
 }
 }
 
