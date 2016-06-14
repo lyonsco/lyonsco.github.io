@@ -12,7 +12,6 @@ body {
 	font-family: Comfortaa, sans-serif;
 	font-size: 20px;
 	color: #fff;
-	/* margin-top: 3.5em; */
 	text-align: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -37,46 +36,17 @@ header {
 	clear: both;
 }
 
-/*#nav {
-	background-color: #0A251A;
-}
-
-.table {
-	display: table;
-	margin: 0 auto;
-	background-color: #0A251A;
-}
-
-ul#horizontal-list {
-	list-style: none;
-	background-color: #0A251A;
-}
-
-ul#horizontal-list li{
-	display: inline;
-	color: white;
-	background-color: #0A251A;
-	padding-right: 1.5em;
-	padding-left: 1.5em;
-}*/
-
 nav a {
 	list-style-type: none;
-	float: left;
 	display: inline;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding: 0em 1em;
     background-color: #0A251A;
     text-align: center;
 }
 
 nav {
 	background-color: #0A251A;
-}
-
-#right li {
-	list-style-type: none;
-	background-color: rgba(10, 37, 26, .25)
+	padding: .25em; 
 }
 
 a {
@@ -84,27 +54,15 @@ a {
 	color: white;
 }
 
-/*a:link {
+a:link {
 	color: white;
 }
 
 a:visited {
 	color: white;
-}*/
-
-/*.table a:hover {
-	color: #DBFB00;
-}*/
-
-nav a:hover {
-	color: #DBFB00;
 }
 
-#contact a:hover {
-	color: #DBFB00;
-}
-
-span a:hover {
+a:hover {
 	color: #DBFB00;
 }
 
@@ -117,19 +75,20 @@ div {
 	font-style: italic;
 	font-family: Comfortaa, serif;
 	background-color: #0A251A;
+	padding: .25em;
 }
 
 hr {
 	color: white;
 	width: 100%;
 	border: 0;
-	height: 1px;
+	height: .02em;
 }
 
 #left {
 	float: left;
-	width: 60%;
-	margin: 2%;
+	width: 58%;
+	margin: 2% 1% 0% 3%;
 	padding: 1em;
 	border-radius: 1em;
 	background-color: #0A251A;
@@ -137,12 +96,18 @@ hr {
 
 #right {
 	margin-top: 2em;
-	margin-right: 1%;
+	margin-bottom: 2em;
+	margin-right: 5%;
 	padding: 2em;
 	border-radius: 1em;
 	float: right;
-	width: 31.33%;
+	width: 30%;
 	background-color: #0A251A;
+}
+
+#right li {
+	list-style-type: none;
+	background-color: rgba(10, 37, 26, .25)
 }
 
 #contact {
@@ -151,7 +116,6 @@ hr {
 	color: white;
 	background-color: #54008B;
 }
-
 
 .clearfix:after {
 	visibility: hidden;
@@ -167,11 +131,13 @@ hr {
 	float: none;
 	width: auto;
 	text-align: center;
+	margin: 2%;
 	}
 
 #left {
 	float: none;
 	width: auto;
+	margin: 2%;
 }
 
 nav a:link {
@@ -188,6 +154,11 @@ body {
 
 #slogan {
 	font-size: 1.5em;
+}
+
+hr {
+	height: .02px;
+	border: 0;
 }
 }
 
